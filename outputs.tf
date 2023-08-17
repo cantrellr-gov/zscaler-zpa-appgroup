@@ -1,6 +1,6 @@
-output "efa_policyaccessrule_id" {
-    value = zpa_policy_access_rule.efa_policyaccessrule.id
+output "efa_appgroup_id" {
+    value = zpa_app_connector_group.efa_appgroup.id
 }
-output "efa_policyaccessrule_name" {
-    value = zpa_policy_access_rule.efa_policyaccessrule.name
+output "efa_appgroup_name" {
+    value = zpa_app_connector_group.efa_appgroup.name
 }
